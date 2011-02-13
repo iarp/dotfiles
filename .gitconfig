@@ -1,0 +1,10 @@
+[user]
+	name = my-name
+	email = my-email
+[core]
+	autocrlf = input
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
