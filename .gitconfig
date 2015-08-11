@@ -3,6 +3,7 @@
 	email = my-email
 [core]
 	autocrlf = input
+    excludesfile = /home/iarp/.gitignore_global
 [color]
 	diff = auto
 	status = auto

@@ -21,6 +21,7 @@ configuration.php
 *.jar
 *.rar
 *.tar
+*.tgz
 *.zip
 *.pyd
 
@@ -51,3 +52,5 @@ cache/
 .project
 .pydevproject
 .settings
+.idea
+_build
