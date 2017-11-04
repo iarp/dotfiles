@@ -28,8 +28,7 @@ configuration.php
 # Logs and databases #
 ######################
 *.log
-*.sqlite
-*.sqlite3
+*.sqlite*
 logs/
 
 # OS generated files #
