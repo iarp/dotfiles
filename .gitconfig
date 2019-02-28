@@ -1,11 +1,13 @@
 [user]
-	name = my-name
-	email = my-email
+name = my-name
+email = my-email
+
 [core]
-	autocrlf = input
-    excludesfile = /home/iarp/.gitignore_global
+autocrlf = input
+excludesfile = /home/username/.gitignore_global
+
 [color]
-	diff = auto
-	status = auto
-	branch = auto
-	ui = true
+diff = auto
+status = auto
+branch = auto
+ui = true
