@@ -13,3 +13,12 @@ sed -i 's/username/$USER/g' .gitconfig -i
 
 # Enable bash colouring by uncommenting force_color_prompt
 sed '/force_color_prompt=yes/s/^# *//' .bashrc -i
+
+# Remove lines from .bashrc that start with the following
+sed '/^HISTSIZE/d' .bashrc -i
+sed '/^HISTFILESIZE/d' .bashrc -i
+sed '/^HISTCONTROL/d' .bashrc -i
+sed '/^PROMPT_COMMAND/d' .bashrc -i
+
+wget https://raw.githubusercontent.com/iarp/dotfiles/master/.bashrc -O .tmp_bashrc
+cat .tmp_bashrc >> .bashrc
