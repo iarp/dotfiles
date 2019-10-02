@@ -22,3 +22,8 @@ sed '/^PROMPT_COMMAND/d' .bashrc -i
 
 wget https://raw.githubusercontent.com/iarp/dotfiles/master/.bashrc -O .tmp_bashrc
 cat .tmp_bashrc >> .bashrc
+
+sudo apt update 
+sudo apt upgrade
+
+ssh-keygen -t rsa -C "$HOSTNAME"
