@@ -1,6 +1,6 @@
 [user]
-name = my-name
-email = my-email
+name = username
+email = username@localhost
 
 [core]
 autocrlf = input
