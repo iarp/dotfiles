@@ -1,4 +1,4 @@
 Personal settings, backup location for simple things...etc
 
-    curl https://github.com/iarp/dotfiles/raw/master/setup.sh && chmod +x setup.sh && ./setup.sh
+    curl https://raw.githubusercontent.com/iarp/dotfiles/master/setup.sh -O setup.sh && chmod +x setup.sh && ./setup.sh
     rm setup.sh
