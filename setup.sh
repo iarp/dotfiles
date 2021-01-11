@@ -31,6 +31,7 @@ cat .tmp_bashrc >> .bashrc
 
 echo "Generating ssh key"
 ssh-keygen -t rsa -C "$USER@$HOSTNAME"
+curl https://github.com/iarp.keys >> ~/.ssh/authorized_keys
 
 sudo apt update
 sudo apt install -y screen
